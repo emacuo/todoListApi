@@ -1,0 +1,32 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "RESTful to-do list API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emacuo/todoListApi.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API"
+  ],
+  "author": "Emanuele Cuoccio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emacuo/todoListApi/issues"
+  },
+  "homepage": "https://github.com/emacuo/todoListApi#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
