@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 3300;
 var mongoose = require('mongoose');
 var Task = require('./api/models/todoListModel'); //created model loading here
 var bodyParser = require('body-parser');
